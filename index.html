@@ -13,11 +13,11 @@
     <section>
         <form action="" method="get">
 
-            <fieldset>
+            <!-- <fieldset>
                 
                 <legend>Dados Pessoais</legend>                
-                <label for="userName">Name</label>
-                <input type="text" name="userName" required>
+                <label for="name">Name</label>
+                <input id+"name" type="text" name="userName" required>
                 <br>
                 <label for="userAge">Idade</label>
                 <input type="number" name="userAge" min="12" max="100" required>
@@ -33,9 +33,9 @@
                 <br>
                 <label for="userImage">Upload de Foto</label>
                 <input type="file" accept="image/*" name="userImage">
-            </fieldset>
+            </fieldset> -->
 
-            <fieldset>
+            <!-- <fieldset>
                 <legend>Perfil</legend>
 
                 <p>Gênero:</p>
@@ -86,7 +86,26 @@
                     <option value="Tocantins">Tocantins</option>
                 </select>
 
+            </fieldset> -->
+
+            <fieldset>
+                
+                <legend>Hábitos</legend>      
+                <p>Redes Sociais:</p>  
+                <input id="instagram" type="checkbox" name="social" value="instagram">        
+                <label for="instagram">Instagram</label>
+                <br>
+                <input id="facebook" type="checkbox" name="social" value="facebook">
+                <label for="facebook">Facebook</label>                
+                <br>
+                <input id="linkedin" type="checkbox" name="social" value="linkedin">
+                <label for="linkedin">Linkedin</label>                
+                <br>
+                <input id="x" type="checkbox" name="social" value="x">
+                <label for="x">X</label>                
+                
             </fieldset>
+
 
             <button type="submit">Enviar</button>
         </form>
