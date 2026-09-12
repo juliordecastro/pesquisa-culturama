@@ -13,6 +13,7 @@
     <section>
         <form action="" method="get">
 
+            <!-- DADOS PESSOAIS -->
             <!-- <fieldset>
                 
                 <legend>Dados Pessoais</legend>                
@@ -35,6 +36,7 @@
                 <input type="file" accept="image/*" name="userImage">
             </fieldset> -->
 
+            <!-- PERFIL -->
             <!-- <fieldset>
                 <legend>Perfil</legend>
 
@@ -88,6 +90,7 @@
 
             </fieldset> -->
 
+            <!-- HABITOS -->
             <fieldset>                
                 <legend>Hábitos</legend>      
                 <p>Redes Sociais:</p>  
@@ -117,6 +120,7 @@
                 <br>
             </fieldset>
 
+            <!-- OPNIAO -->
             <fieldset>
                 <legend>Opnião</legend>
                 <p>O que você acha da qualidade do nosso serviço</p>
@@ -136,6 +140,17 @@
 
                 <label for="comment">Escreva sua opnião</label>
                 <textarea id="comment" name="userComment" placeholder="Digite aqui sua opnião..."></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Confirmações</legend>
+
+                <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
+                <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
+                <br>
+                <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
+                <label for="userLgpdTerm">Desejo receber o resultado por email</label>
+                <br>
 
             </fieldset>
 
