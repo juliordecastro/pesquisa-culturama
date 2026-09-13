@@ -39,13 +39,21 @@ legend{
     font-size: 18px;
     padding: 0 5px;
 }
+p{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
 label{
     display: inline-block;
     margin-bottom: 5px;
 }
-p{
-    margin-bottom: 15px;
-    font-weight: bold;
+input[type="tel"],
+input[type="file"]{
+    margin-bottom: 0;
+}
+small{
+    margin-bottom: 20px;
+    display: inline-block;
 }
 input, select, textarea{
     width: 100%;
